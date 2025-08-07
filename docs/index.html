@@ -1,34 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github와 함께하는 HTML5</title>
-</head>
-<body bgcolor="f1ffbb">
-    <p>Hi, It's index page without index <3 </p>
-    <hr>
-
-    <a href="gps.html"><mark>Click here to observe GPS Info</mark></a>
-    <br><br>
-    <a href="present.html"><mark>If you're considering buy me some gift, please enter here</mark></a>
-    <hr>
-    <p>Do you know what time is it now?
-<div id="clock"></div>
-
-<script>
-  function updateClock() {
-    const now = new Date();
-    const hours = String(now.getHours()).padStart(2, '0');
-    const minutes = String(now.getMinutes()).padStart(2, '0');
-    const seconds = String(now.getSeconds()).padStart(2, '0');
-    const timeString = `${hours}:${minutes}:${seconds}`;
-    document.getElementById('clock').textContent = timeString;
-  }
-
-  setInterval(updateClock, 1000); // 1초마다 업데이트
-  updateClock(); // 페이지 로드 시 초기 시간 설정
-</script>
-</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>오늘도 달리자!🔥💥✨</title>
+    <script type="module" crossorigin src="/assets/index-B-c9LBz0.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BNXmXAFJ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
